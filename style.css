@@ -1,6 +1,8 @@
 .container {
     display: flex;
     flex-direction: column;
+
+    min-height: 100%;
 }
 
 .card>img{
@@ -11,6 +13,10 @@ body{
     background-image: url('img/teslaback1.jpg');
     background-image: no-repeat;
     background-size: cover;
+
+    min-height: 100%;
+    position: relative;
+    padding-bottom: 60px;
 }
 
 .text-muted {
@@ -28,4 +34,15 @@ body{
 
 .card-body{
     text-align: center;
+}
+
+html{
+    height: 100%;
+} 
+
+footer{
+    position: absolute;
+    width: 70%;
+    height: 80px;
+    bottom: 0px;
 }
