@@ -1,0 +1,7 @@
+CREATE DATABASE projectdb;
+
+\c projectdb
+
+CREATE TABLE scr(id SERIAL PRIMARY KEY, name VARCHAR(255), title VARCHAR(255), price VARCHAR(255), img VARCHAR(255));
+
+SELECT * FROM scr;
