@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card>img{
+    margin-top: 10px;
+}
+
+body{
+    background-image: url('img/teslaback1.jpg');
+    background-image: no-repeat;
+    background-size: cover;
+}
+
+.text-muted {
+    --bs-text-opacity: 1;
+    color: rgba(201, 207, 214, 0.75)!important;
+}
+
+.form-control{
+    background-color: #c2c3ca;
+}
+
+.card{
+    background-color: #c2c3ca;
+}
+
+.card-body{
+    text-align: center;
+}
